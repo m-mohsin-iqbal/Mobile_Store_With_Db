@@ -1,0 +1,14 @@
+CREATE TABLE `mobile_details` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `imageUrl` varchar(500) DEFAULT NULL,
+  `ProviderLogo` varchar(500) DEFAULT NULL,
+  `brand` varchar(200) DEFAULT NULL,
+  `model` varchar(500) DEFAULT NULL,
+  `phoneDescription` varchar(200) DEFAULT NULL,
+  `phoneDescription2` varchar(200) DEFAULT NULL,
+  `packageDetail` varchar(2000) DEFAULT NULL,
+  `packageName` varchar(200) DEFAULT NULL,
+  `price` varchar(200) DEFAULT NULL,
+  `Url` varchar(500) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);
